@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 14px;
+}
+main {
+  width: 90%;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+header {
+  display: flex;
+  width: 100%;
+  height: 176px;
+  background: rgba(251, 239, 243, 1);
+}
+nav {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+#cardapio {
+  background-color: #f42972;
+}
+nav > a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+header > img {
+  height: 100%;
+}
+.linha {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+#contato {
+  display: flex;
+}
+span {
+  font-size: 30px;
+}
+#contato img {
+  height: 30px;
+}
+#contato > img {
+  height: 200px;
+  margin-right: 20px;
+}
+
+#endereco {
+  width: 30%;
+}
+
+#rede_social img {
+  height: 34px;
+}
+.verde {
+  color: #379417;
+  font-size: 24px;
+}
+.rosa {
+  color: #f42972;
+  font-size: 24px;
+}
+
+h3 {
+  color: #f42972;
+  font-size: 32px;
+}
+.fotos img {
+  display: block;
+  width: 160px;
+  margin-bottom: 80px;
+}

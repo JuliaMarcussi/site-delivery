@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 14px;
+}
+main {
+  width: 90%;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+header {
+  display: flex;
+  width: 100%;
+  height: 176px;
+  background: rgba(251, 239, 243, 1);
+}
+nav {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+#cadastro {
+  background-color: #f42972;
+}
+nav > a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+header > img {
+  height: 100%;
+}
+.linha {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+#contato {
+  display: flex;
+}
+span {
+  font-size: 30px;
+}
+#contato img {
+  height: 30px;
+}
+#contato > img {
+  height: 200px;
+  margin-right: 20px;
+}
+
+#endereco {
+  width: 30%;
+}
+
+#rede_social img {
+  height: 34px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.login-box {
+  background-color: #fff;
+  padding: 40px;
+  border: 1px solid #f3a0a0;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.logo {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #ff1493;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  color: #ff1493;
+  font-size: 18px;
+  text-align: left;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ff1493;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #ffe4e1;
+}
+
+button {
+  background-color: #ff1493;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff69b4;
+}
+
+p {
+  margin-top: 15px;
+  color: #ff1493;
+}
+
+.login-box a {
+  color: black;
+  text-decoration: none;
+}
+
+.login-box a:hover {
+  text-decoration: underline;
+}
+.verde {
+  color: #379417;
+  font-size: 24px;
+}
+.rosa {
+  color: #f42972;
+  font-size: 24px;
+}
